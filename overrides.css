@@ -56,10 +56,9 @@ ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-organizers__content {
 	ul.wordcamp-organizers li .wordcamp-organizer {
 		margin-bottom: 3rem;
 	}
-	ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-image__avatar-container {
-		flex: 1 0 100%;
-	}
+	ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-image__avatar-container,
 	ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-organizers__content {
 		flex: 1 0 100%;
+		margin-right: 0;
 	}
 }
