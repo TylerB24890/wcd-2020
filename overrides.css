@@ -1,6 +1,29 @@
 /**********************************
  * Global Components
  **********************************/
+
+#content {
+	padding-bottom: 0;
+}
+.entry-content {
+	margin-top: 3rem;
+}
+
+/* Links */
+.entry-content a {
+	transition: color 0.25s ease-in-out;
+	-moz-transition: color 0.25s ease-in-out;
+	-webkit-transition: color 0.25s ease-in-out;
+}
+.entry-content a,
+.entry-content a:link,
+.entry-content a:visited {
+	color: #832d82;
+}
+.entry-content a:hover {
+	color: inherit;
+}
+
 /* Navigation */
 .page-navigation-container li {
 	float: none;
@@ -51,7 +74,10 @@ ul.wordcamp-organizers li .wordcamp-organizer {
 	flex-wrap: wrap;
 }
 ul.wordcamp-organizers li .wordcamp-organizer h3.wordcamp-organizers__title {
+	color: #007b84;
 	flex: 1 0 100%;
+	font-size: 2rem;
+	margin-bottom: .5rem;
 	text-align: left !important;
 }
 ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-image__avatar-container {
@@ -61,6 +87,18 @@ ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-image__avatar-container 
 }
 ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-organizers__content {
 	flex: 1 0 75%;
+}
+
+@media (min-width: 48em) {
+	#content {
+		padding: 3rem 0 0;
+	}
+}
+
+@media (min-width: 37.5em) {
+	#content {
+		padding-bottom: 0;
+	}
 }
 
 /**********************************
