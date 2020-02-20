@@ -67,6 +67,10 @@ ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-organizers__content {
  * Mobile
  **********************************/
 @media screen and (max-width: 768px) {
+	.page-navigation-container ul ul,
+	.page-navigation-container ul ul a {
+		background-color: #007b84;
+	}
 	#secondary form.search-form input[type="submit"] {
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
