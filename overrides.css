@@ -8,6 +8,9 @@
 .page-navigation-container ul ul {
 	top: auto;
 }
+.page-navigation-container ul ul a {
+	width: auto;
+}
 
 /* Footer Search */
 #secondary form.search-form {
