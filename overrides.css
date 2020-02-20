@@ -70,6 +70,7 @@ ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-organizers__content {
 	.page-navigation-container ul ul,
 	.page-navigation-container ul ul a {
 		background-color: #007b84;
+		width: 100%;
 	}
 	#secondary form.search-form input[type="submit"] {
 		padding-left: 2.5rem;
