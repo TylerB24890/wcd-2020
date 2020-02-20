@@ -1,12 +1,24 @@
 /**********************************
  * Global Components
  **********************************/
+/* Navigation */
+.page-navigation-container li {
+	float: none;
+}
+.page-navigation-container ul ul {
+	top: auto;
+}
+
 /* Footer Search */
 #secondary form.search-form {
 	display: flex;
 }
 #secondary form.search-form label {
 	flex: 1 0 auto;
+}
+#secondary form.search-form label input.search-field {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
 }
 
 /* Footer Logo */
@@ -16,8 +28,8 @@ footer .site-info-network {
 
 /* Cookie Notice */
 .widget_eu_cookie_law_widget {
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 /**********************************
@@ -27,6 +39,9 @@ ul.wordcamp-organizers {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+ul.wordcamp-organizers.wordcamp-post-list.has-layout-grid {
+	display: block;
 }
 ul.wordcamp-organizers li .wordcamp-organizer {
 	display: flex;
