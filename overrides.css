@@ -85,8 +85,8 @@ footer .site-info-network {
 .widget_eu_cookie_law_widget {
 	margin-left: auto !important;
 	margin-right: auto !important;
-	left: 0;
-	right: 0;
+	left: 0 !important;
+	right: 0 !important;
 }
 
 /**********************************
