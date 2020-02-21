@@ -1,16 +1,27 @@
 /**********************************
  * Global Components
  **********************************/
-
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+html {
+	overflow-x: hidden;
+}
 #content {
 	padding-bottom: 0;
 }
 .entry-content {
 	margin-top: 3rem;
 }
+.entry-content p {
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+}
 
 /* Links */
 .entry-content a {
+	text-decoration: none;
 	transition: color 0.25s ease-in-out;
 	-moz-transition: color 0.25s ease-in-out;
 	-webkit-transition: color 0.25s ease-in-out;
@@ -45,6 +56,14 @@
 #secondary form.search-form label input.search-field {
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
+	border: 0;
+}
+#secondary form.search-form input[type="submit"] {
+	border: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: .1875rem;
+	border-bottom-right-radius: .1875rem;
 }
 
 /* Footer Logo */
@@ -76,7 +95,7 @@ ul.wordcamp-organizers li .wordcamp-organizer {
 ul.wordcamp-organizers li .wordcamp-organizer h3.wordcamp-organizers__title {
 	color: #007b84;
 	flex: 1 0 100%;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	margin-bottom: .5rem;
 	text-align: left !important;
 }
