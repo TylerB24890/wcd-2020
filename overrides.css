@@ -12,26 +12,35 @@ html {
 	padding-bottom: 0;
 }
 .entry-content {
-	margin-top: 3rem;
+	margin-top: 1.5rem;
+}
+.entry-content h2 {
+	margin-top: 1.5rem;
 }
 .entry-content p {
 	font-size: 1.1rem;
 	margin-bottom: 1rem;
 }
+.entry-content ul,
+.entry-content ol {
+	margin-left: 0;
+	padding-left: 1.5rem;
+}
 
 /* Links */
 .entry-content a {
 	text-decoration: none;
-	transition: color 0.25s ease-in-out;
-	-moz-transition: color 0.25s ease-in-out;
-	-webkit-transition: color 0.25s ease-in-out;
+	transition: color 0.25s ease !important;
+	-moz-transition: color 0.25s ease !important;
+	-webkit-transition: color 0.25s ease !important;
 }
 .entry-content a,
 .entry-content a:link,
 .entry-content a:visited {
 	color: #832d82;
-	border-bottom: 0;
+	border-bottom: 0 !important;
 }
+
 .entry-content a:hover {
 	color: #007b84;
 }
@@ -89,13 +98,16 @@ footer .site-info-network {
 	margin: 0;
 }
 ul.wordcamp-block h3.wordcamp-block__item-title {
-	margin-bottom: .5rem;
+	margin-bottom: .75rem;
 	font-size: 1.8rem;
 }
 
 /**********************************
  * Sponsors
  **********************************/
+ul.wordcamp-sponsors h3.wordcamp-block__item-title {
+	margin-bottom: 1rem;
+}
 ul.wordcamp-sponsors li.wordcamp-post-list__post {
 	border-bottom: 1px solid #D8D8D8;
 	padding: 1.5rem 0;
