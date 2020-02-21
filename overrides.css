@@ -30,9 +30,10 @@ html {
 .entry-content a:link,
 .entry-content a:visited {
 	color: #832d82;
+	border-bottom: 0;
 }
 .entry-content a:hover {
-	color: inherit;
+	color: #007b84;
 }
 
 /* Navigation */
@@ -75,16 +76,38 @@ footer .site-info-network {
 .widget_eu_cookie_law_widget {
 	margin-left: auto !important;
 	margin-right: auto !important;
+	left: 0;
+	right: 0;
+}
+
+/**********************************
+ * WordCamp Content
+ **********************************/
+ ul.wordcamp-block {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul.wordcamp-block h3.wordcamp-block__item-title {
+	margin-bottom: .5rem;
+	font-size: 1.8rem;
+}
+
+/**********************************
+ * Sponsors
+ **********************************/
+ul.wordcamp-sponsors li.wordcamp-post-list__post {
+	border-bottom: 1px solid #D8D8D8;
+	padding: 1.5rem 0;
+}
+ul.wordcamp-sponsors li.wordcamp-post-list__post ul {
+	margin: 0 0 1rem;
+	padding-left: 1.5rem;
 }
 
 /**********************************
  * Organizers
  **********************************/
-ul.wordcamp-organizers {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
 ul.wordcamp-organizers.wordcamp-post-list.has-layout-grid {
 	display: block;
 }
@@ -95,8 +118,6 @@ ul.wordcamp-organizers li .wordcamp-organizer {
 ul.wordcamp-organizers li .wordcamp-organizer h3.wordcamp-organizers__title {
 	color: #007b84;
 	flex: 1 0 100%;
-	font-size: 1.8rem;
-	margin-bottom: .5rem;
 	text-align: left !important;
 }
 ul.wordcamp-organizers li .wordcamp-organizer .wordcamp-image__avatar-container {
